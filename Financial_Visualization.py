@@ -5,10 +5,10 @@ import streamlit as st
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
 # Mount Data
-file_path = "Finacial.csv"
+file_path = "Financial.csv"
 data = pd.read_csv(file_path, encoding='latin-1')
 
-st.title('Finacial Dashboard')
+st.title('Financial Dashboard')
 
 # Bar Chart Country by Units Sold
 st.subheader("Country by Units Sold")
