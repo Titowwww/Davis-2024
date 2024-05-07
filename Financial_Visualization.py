@@ -5,8 +5,8 @@ import streamlit as st
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
 # Mount Data
-file_path = "Financial.csv"
-data = pd.read_csv(file_path, encoding='latin-1')
+# file_path = "Financial.csv"
+data = pd.read_csv("Financial.csv")
 
 st.title('Financial Dashboard')
 
